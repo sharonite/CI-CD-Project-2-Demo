@@ -5,7 +5,8 @@
 # Notes: You do need an active Google Analytics Client Account to define User Type Internal or External. 
 
 # Step 1
-You need to set up a project with Google APIs console. Under Credentials, follow this workflow: click Create credentials ==> choose OAuth client ID ==> select Web application -> fill -> fill with https://www.getpostman.com/oauth2/callback ==> click Create ==> save the Client ID and Client secret in a safe place.
+You need to set up a project with Google APIs console. https://console.developers.google.com/apis/credentials?project=gcelab-sharonng&folder=&organizationId=
+Under Credentials, follow this workflow: click Create credentials ==> choose OAuth client ID ==> select Web application -> fill -> fill with https://www.getpostman.com/oauth2/callback ==> click Create ==> save the Client ID and Client secret in a safe place.
 
 # Step 2
 Go to this collection in Postman, under the Auth tag, follow this workflow: choose OAuth 2.0 from the Type dropdown list ==> click Get New Access Token ==> fill Auth URL with https://accounts.google.com/o/oauth2/v2/auth?access_type=offline -> fill Access Token URL with https://www.googleapis.com/oauth2/v4/token -> fill Client ID with the client ID you got above -> fill Client Secret with the client secret you got above -> fill Scope(Optional) with https://www.googleapis.com/auth/analytics.readonly -> select Authorization Code from the dropdown list -> check Request access token locally -> click Request Token
