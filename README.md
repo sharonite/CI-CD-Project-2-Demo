@@ -9,7 +9,7 @@ You need to set up a project with Google APIs console. Under Credentials, follow
 
 # Step 2
 Go to this collection in Postman, under the Auth tag, follow this workflow: choose OAuth 2.0 from the Type dropdown list ==> click Get New Access Token ==> fill Auth URL with https://accounts.google.com/o/oauth2/v2/auth?access_type=offline -> fill Access Token URL with https://www.googleapis.com/oauth2/v4/token -> fill Client ID with the client ID you got above -> fill Client Secret with the client secret you got above -> fill Scope(Optional) with https://www.googleapis.com/auth/analytics.readonly -> select Authorization Code from the dropdown list -> check Request access token locally -> click Request Token
-Save the refresh_token in a safe place (Important !)
+Save the refresh_token in a safe place (To Note!)
 Save the access_token and use it in the next couple minutes.
 
 # Step 3
