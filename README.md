@@ -1,6 +1,6 @@
 # CI-CD-Project-2-Demo
 
-# This collection calls Google Analytics Reporting API to query the report and post to #Slack. 
+# This collection calls Google Analytics Reporting API to query the report and post to #Slack or any collaboration tools integrated with Git.
 
 # Notes: You do need an active Google Analytics Client Account to define User Type Internal or External. 
 
